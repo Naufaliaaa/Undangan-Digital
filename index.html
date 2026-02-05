@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Undangan Pernikahan - Romeo & Juliet</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Work+Sans:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Cover Section -->
+    <div id="cover" class="cover-section">
+        <div class="cover-content">
+            <h3 class="animate-up">The Wedding of</h3>
+            <h1 class="animate-up delay-1">Romeo & Juliet</h1>
+            <p class="animate-up delay-2">Kepada Yth.<br>Bapak/Ibu/Saudara/i</p>
+            <div class="guest-name animate-up delay-3">Tamu Spesial</div>
+            <button id="open-btn" class="open-btn animate-up delay-4">
+                <i class="fas fa-envelope-open-text"></i> Buka Undangan
+            </button>
+        </div>
+    </div>
+
+    <!-- Main Content (Hidden Initially) -->
+    <main id="main-content" class="hidden">
+
+        <!-- Header Section -->
+        <section class="header-section">
+            <div class="floral-border top"></div>
+            <div class="content-wrapper">
+                <h3>The Wedding of</h3>
+                <h1 class="couple-name">Romeo</h1>
+                <span class="and">&</span>
+                <h1 class="couple-name">Juliet</h1>
+                <p class="date">Sabtu, 14 Februari 2026</p>
+            </div>
+        </section>
+
+        <!-- Quote Section -->
+        <section class="quote-section">
+            <div class="content-wrapper">
+                <p class="quote">"Dan di antara tanda-tanda kekuasaan-Nya ialah Dia menciptakan untukmu isteri-isteri
+                    dari jenismu sendiri, supaya kamu cenderung dan merasa tenteram kepadanya, dan dijadikan-Nya
+                    diantaramu rasa kasih dan sayang."</p>
+                <p class="source">(Ar-Rum: 21)</p>
+            </div>
+        </section>
+
+        <!-- Couple Details -->
+        <section class="couple-section">
+            <div class="content-wrapper">
+                <div class="groom">
+                    <div class="photo-frame">
+                        <!-- Placeholder for Groom Photo -->
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <h2>Romeo Montague</h2>
+                    <p>Putra dari Bpk. Montague & Ibu Montague</p>
+                </div>
+                <div class="divider"><i class="fas fa-heart"></i></div>
+                <div class="bride">
+                    <div class="photo-frame">
+                        <!-- Placeholder for Bride Photo -->
+                        <i class="fas fa-female"></i>
+                    </div>
+                    <h2>Juliet Capulet</h2>
+                    <p>Putri dari Bpk. Capulet & Ibu Capulet</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section">
+            <div class="content-wrapper">
+                <h2>Our Moments</h2>
+                <div class="gallery-grid">
+                    <img src="images/couple1.png" alt="Moment 1" class="gallery-img">
+                    <img src="images/couple2.png" alt="Moment 2" class="gallery-img">
+                    <img src="images/couple3.png" alt="Moment 3" class="gallery-img">
+                    <img src="images/couple4.png" alt="Moment 4" class="gallery-img">
+                    <img src="images/couple1.png" alt="Moment 5" class="gallery-img"> <!-- Reusing couple1 to make 5 -->
+                </div>
+            </div>
+        </section>
+
+        <!-- Event Details -->
+        <section class="event-section">
+            <div class="content-wrapper">
+                <h2>Save The Date</h2>
+                <div class="event-card">
+                    <div class="event-item">
+                        <h3>Akad Nikah</h3>
+                        <p><i class="far fa-clock"></i> 08.00 WIB - Selesai</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Masjid Agung Verona</p>
+                    </div>
+                    <hr>
+                    <div class="event-item">
+                        <h3>Resepsi</h3>
+                        <p><i class="far fa-clock"></i> 11.00 WIB - Selesai</p>
+                        <p><i class="fas fa-map-marker-alt"></i> Grand Ballroom Verona</p>
+                    </div>
+                </div>
+
+                <!-- Google Maps -->
+                <div class="map-container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.226077626927!2d110.4287532749964!3d-6.982548493018288!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e708cafc9d30009%3A0xe5452c9c7d425316!2sMasjid%20Agung%20Jawa%20Tengah%20(MAJT)!5e0!3m2!1sen!2sid!4v1707123456789!5m2!1sen!2sid"
+                        width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <a href="https://maps.app.goo.gl/example" target="_blank" class="btn-map"><i
+                            class="fas fa-map-marked-alt"></i> Buka Google Maps</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- RSVP / Wishes -->
+        <section class="wishes-section">
+            <div class="floral-border bottom"></div>
+            <div class="content-wrapper">
+                <h2>Kirim Ucapan</h2>
+                <form id="wish-form">
+                    <input type="text" placeholder="Nama Anda" required>
+                    <textarea placeholder="Ucapan & Doa" rows="4" required></textarea>
+                    <button type="submit">Kirim</button>
+                </form>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Made with <i class="fas fa-heart"></i> by Antigravity</p>
+        </footer>
+
+        <!-- Floating Music Control -->
+        <div id="music-control" class="music-control">
+            <button id="toggle-music"><i class="fas fa-compact-disc fa-spin"></i></button>
+        </div>
+
+    </main>
+
+    <!-- Audio Element -->
+    <audio id="wedding-music" loop>
+        <source
+            src="https://upload.wikimedia.org/wikipedia/commons/transcoded/1/15/Beethoven_Moonlight_1st_movement.ogg/Beethoven_Moonlight_1st_movement.ogg.mp3"
+            type="audio/mpeg">
+        <source src="https://upload.wikimedia.org/wikipedia/commons/e/eb/Beethoven_Moonlight_1st_movement.ogg"
+            type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
