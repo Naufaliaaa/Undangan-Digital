@@ -1,6 +1,6 @@
 # 🎊 Wedding Invitation Website
 
-A beautiful, elegant, and responsive wedding invitation website built with HTML, CSS, and JavaScript. This project features smooth animations, a gallery section, event details, RSVP form, and background music player.
+A Beautiful, Elegant, and Responsive wedding invitation website built with HTML, CSS, and JavaScript. This project features smooth animations, a gallery section, event details, RSVP form, and background music player.
 
 ![Wedding Invitation Preview](https://via.placeholder.com/1200x600/D4AF37/ffffff?text=Romeo+%26+Juliet+Wedding+Invitation)
 
