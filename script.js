@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // 3. Show Music Control
         musicControl.classList.add('visible');
 
-        // Allow scrolling again
+        // Allow Scrolling Again
         document.body.style.overflow = 'auto';
     });
 
